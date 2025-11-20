@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  color-scheme: dark;
+}
+
+html, body, #root { height: 100%; }
+body { @apply bg-slate-950 text-white font-sans; }
+
+/* glass card */
+.glass { @apply bg-white/10 border border-white/20 backdrop-blur-xl rounded-2xl; }
